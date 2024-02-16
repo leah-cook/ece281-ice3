@@ -79,7 +79,10 @@ begin
 	-----------------------------------------------------
 	top_basys3_inst : top_basys3 port map (
 	   sw => w_sw,
-	   led => w_led   
+	   led => w_led,   
+	   i_A => w_S1,
+	   o_Cout=>w_Cout1,
+	   o_Cout=>w_Cout2
 	);
 	-- PROCESSES ----------------------------------------	
 	-- Test Plan Process
